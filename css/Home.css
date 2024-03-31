@@ -1,0 +1,89 @@
+header {
+    background-color: #333; 
+    color: white; 
+    padding: 20px;
+}
+
+a {
+    text-decoration: none; 
+    color: #007bff; 
+}
+
+a:hover {
+    color: #0056b3; 
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center; 
+    background-color: #f8f9fa; 
+    padding: 10px 0;
+}
+
+.horizontal p {
+    margin: 0 20px;
+}
+
+h3 {
+    color: #007bff; 
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.T-shirts, .pic2 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.description {
+    text-align: center; 
+    margin: 20px; 
+}
+
+.description img {
+    border-radius: 10px; 
+}
+
+.description p {
+    margin-top: 10px; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f8f9fa; 
+    margin: 0; 
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px; 
+    }
+
+    .horizontal {
+        flex-wrap: wrap; 
+    }
+
+    .horizontal p {
+        margin: 10px; 
+    }
+
+    h3 {
+        padding: 10px 0; 
+    }
+
+    .T-shirts, .pic2 {
+        justify-content: space-around; 
+    }
+
+    .description {
+        margin: 10px; 
+    }
+
+    .description img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+    }
+}
